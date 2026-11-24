@@ -17,6 +17,10 @@ Hoy cada cotización se arma a mano: la agente lee el chat de WhatsApp, busca ho
 
 Excursion Copilot lee la conversación con el cliente, saca los datos del viaje, arma el itinerario, compara tarifas vigentes y deja lista la cotización para que la agente la revise y la envíe. La idea es pasar de horas a unos 20 minutos, sin perder el trato personal que hace que los clientes vuelvan.
 
+<p align="center">
+  <img src="https://github.com/excursion-copilot/excursion-copilot-web/raw/main/docs/screenshots/flujo.gif" width="760" alt="Recorrido de una cotización: bandeja, ficha, itinerario, comparador, cotización, PDF y envío">
+</p>
+
 ## Cómo funciona
 
 1. Bandeja de solicitudes: los mensajes de WhatsApp Business se convierten en solicitudes con fechas, ciudades, viajeros y preferencias ya extraídas.
@@ -37,8 +41,8 @@ Excursion Copilot lee la conversación con el cliente, saca los datos del viaje,
 
 | Repositorio | Qué contiene | Estado |
 | --- | --- | --- |
-| [`excursion-copilot-web`](https://github.com/excursion-copilot/excursion-copilot-web) | App de la agente en escritorio y celular: bandeja, ficha, itinerario, comparador, cotización, seguimiento y proveedores | ✅ Todas las pantallas del Figma · 🔄 conexión con la API en revisión |
-| [`excursion-copilot-api`](https://github.com/excursion-copilot/excursion-copilot-api) | Inicio de sesión con roles (agente y administrador), datos de cada pantalla y PDF de la cotización | 🔄 Primera versión en revisión |
+| [`excursion-copilot-web`](https://github.com/excursion-copilot/excursion-copilot-web) | App de la agente en escritorio y celular: bandeja, ficha, itinerario, comparador, cotización, seguimiento y proveedores | ✅ Conectada a la API, con inicio de sesión, roles y PDF |
+| [`excursion-copilot-api`](https://github.com/excursion-copilot/excursion-copilot-api) | Inicio de sesión con roles (agente y administrador), datos de cada pantalla y PDF de la cotización | ✅ Primera versión lista |
 | Integraciones | WhatsApp, tarifas en vivo y HubSpot | 🗓️ Siguiente etapa |
 | [Diseño en Figma](https://www.figma.com/design/PUkTOA1b5ydSnf8niAJBym/Copiloto-de-Cotizaci%C3%B3n-%C2%B7-Excursi%C3%B3n-por-Colombia-y-el-Mundo?node-id=70-2) | Mockup y prototipo navegable de todas las pantallas | ✅ Listo |
 
