@@ -37,10 +37,18 @@ Excursion Copilot lee la conversación con el cliente, saca los datos del viaje,
 
 | Repositorio | Qué contiene | Estado |
 | --- | --- | --- |
-| `web` | App de escritorio para la agente | En construcción |
-| `mobile` | Bandeja y ficha desde el celular | En construcción |
-| `api` | WhatsApp, copiloto, tarifas y HubSpot | En construcción |
-| `design` | Tokens, especificaciones y referencias de Figma | En construcción |
+| [`excursion-copilot-web`](https://github.com/excursion-copilot/excursion-copilot-web) | App de la agente en escritorio y celular: bandeja, ficha, itinerario, comparador, cotización, seguimiento y proveedores | ✅ Todas las pantallas del Figma · 🔄 conexión con la API en revisión |
+| [`excursion-copilot-api`](https://github.com/excursion-copilot/excursion-copilot-api) | Inicio de sesión con roles (agente y administrador), datos de cada pantalla y PDF de la cotización | 🔄 Primera versión en revisión |
+| Integraciones | WhatsApp, tarifas en vivo y HubSpot | 🗓️ Siguiente etapa |
+| [Diseño en Figma](https://www.figma.com/design/PUkTOA1b5ydSnf8niAJBym/Copiloto-de-Cotizaci%C3%B3n-%C2%B7-Excursi%C3%B3n-por-Colombia-y-el-Mundo?node-id=70-2) | Mockup y prototipo navegable de todas las pantallas | ✅ Listo |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-0B3B47?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/TypeScript-5-1A6273?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind-4-E8603C?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/FastAPI-0.115-0E4D5C?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Figma-dise%C3%B1o-6B4FA0?style=flat-square&logo=figma&logoColor=white" alt="Figma">
+</p>
 
 ---
 
